@@ -1,0 +1,5 @@
+Реквизиты root пользователя:
+Логин: root
+Пароль: rootpassword (как указано в docker-compose)
+Хост: localhost или mysql (внутри Docker-сети)
+Порт: 3306

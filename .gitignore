@@ -1,0 +1,44 @@
+# ============ PhpStorm ============
+.idea/
+*.iml
+
+# ============ Docker ============
+# исключаем папку с сайтами
+www/
+
+# исключаем временные/сервисные папки
+.docker/
+docker-compose.override.yml
+
+# ============ MODX ============
+# кеш
+core/cache/
+core/export/
+core/packages/
+core/docs/
+core/config/
+core/error.log
+
+# менеджер
+manager/cache/
+manager/controllers/default/workspaces/
+manager/media/
+
+# ассеты
+assets/cache/
+assets/images/
+assets/.thumbs/
+assets/components/
+
+# ============ Системное ============
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+*.sql
+*.tar
+*.zip
+*.gz
+*.bak
